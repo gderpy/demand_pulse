@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "demand-pulse"
+version = "0.1.0"
+description = "DemandPulse - аналитика спроса и динамическое ценообразование"
+authors = ["Yury Petrov <gderpov@yandex.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.4.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

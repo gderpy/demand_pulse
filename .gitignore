@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Env
+.env
+.env.*
+
+# Byte-compiled / logs / coverage
+*.log
+*.pot
+*.pyc
+*.mo
+*.db
+*.sqlite3
+
+# VSCode
+.vscode/
+
+# IDEs
+.idea/
+*.swp
+
+# Virtualenv
+venv/
+.venv/
+
+# Poetry
+poetry.lock
+
+# pytest
+.pytest_cache/
+.cache/
+.coverage
+htmlcov/
+.tox/
+
+# MyPy
+.mypy_cache/
+
+# System
+.DS_Store
+Thumbs.db
+
+# Media
+*.mp4
